@@ -1,21 +1,23 @@
 {
   "inbounds": [{
-      "port": "env:PORT",
-      "protocol": "vless",
-      "settings": {
-          "clients": [{
-              "id": "66358daa-29be-4a78-2460-e0e924cd4ff7"
-          }],
-          "decryption": "none"
-      },
-      "streamSettings": {
-          "network": "ws",
-          "wsSettings": {
-              "path": "/"
-          }
+    "port": "env:PORT",
+    "protocol": "vmess",
+    "settings": {
+      "clients": [
+        {
+          "id": "6625c1aa-29be-4a78-9860-e0e721cd9yf8",
+          "alterId": 64
+        }
+      ]
+    },
+    "streamSettings": {
+      "network":"ws",
+      "wsSettings": {
+        "path": "/"
       }
+    }
   }],
   "outbounds": [{
-      "protocol": "freedom"
-  }]
+        "protocol": "freedom"
+    }]
 }
