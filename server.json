@@ -1,7 +1,7 @@
 {
   "inbounds": [{
     "port": "env:PORT",
-    "protocol": "vmess",
+    "protocol": "vless",
     "settings": {
       "clients": [
         {
